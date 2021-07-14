@@ -1,4 +1,4 @@
-Bullish integration with Google Sheet
+Options Last Price integration with Google Sheet
 
 # Install
 
