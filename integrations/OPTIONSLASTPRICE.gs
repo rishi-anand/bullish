@@ -39,13 +39,12 @@
  * @customfunction
  **/
 function OPTIONSLASTPRICE(symbol, expiry, strikeprice, option, time) {
-  // https://raw.githubusercontent.com/rishi-anand/bullish/main/route.json
   Logger.log(Utilities.formatString('%d', symbol));
   Logger.log(Utilities.formatString('%s', expiry));
   Logger.log(Utilities.formatString('%d', expiry));
   Logger.log(Utilities.formatString('%s', expiry));
 
-  var routeResp = UrlFetchApp.fetch("https://raw.githubusercontent.com/rishi-anand/bullish/main/route.json");
+  var routeResp = UrlFetchApp.fetch("https://raw.githubusercontent.com/rishi-anand/bullish/main/integrations/route.json");
   Logger.log(routeResp.getContentText());
   var routeData = JSON.parse(routeResp.getContentText());
   Logger.log(routeData.route);
