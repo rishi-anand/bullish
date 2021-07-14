@@ -41,8 +41,8 @@
 function OPTIONSLASTPRICE(symbol, expiry, strikeprice, option, time) {
   Logger.log(Utilities.formatString('%d', symbol));
   Logger.log(Utilities.formatString('%s', expiry));
-  Logger.log(Utilities.formatString('%d', expiry));
-  Logger.log(Utilities.formatString('%s', expiry));
+  Logger.log(Utilities.formatString('%d', strikeprice));
+  Logger.log(Utilities.formatString('%s', option));
 
   var routeResp = UrlFetchApp.fetch("https://raw.githubusercontent.com/rishi-anand/bullish/main/integrations/route.json");
   Logger.log(routeResp.getContentText());
