@@ -27,7 +27,7 @@
  * 
  * For example:
  *
- *   =OPTIONSLASTPRICE("BANKNIFTY", "15-Jul-2021", "35500","CE")
+ *   =OPTIONSLASTPRICE("BANKNIFTY", "15-Jul-2021", "35500","CE", <hash to refresh value>)
  * 
  * @param {symbol} the URL to a public JSON feed
  * @param {expiry} a comma-separated lists of paths to import. Any path starting with one of these paths gets imported.
