@@ -15,4 +15,8 @@ or use `TO_TEXT` and directly assign cell value
 
 `=OPTIONSLASTPRICE(TO_TEXT(A3), TO_TEXT(I26), TO_TEXT(A29), TO_TEXT(B29), <cell address of bank nifty>)`
 
+![alt text](https://raw.githubusercontent.com/rishi-anand/bullish/main/integrations/options_last_price.jgp.png)
+
+<img src="https://raw.githubusercontent.com/rishi-anand/bullish/main/integrations/options_last_price.jgp.png" width="256" height="455">
+
 
