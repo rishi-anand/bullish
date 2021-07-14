@@ -5,7 +5,7 @@ Options Last Price integration with Google Sheet
 -   Go to your google sheet
 -   Navigate to `Tools` -> `Script editor` 
 -   Rename `Code.gs` to `OPTIONSLASTPRICE.gs` 
--   Copy contents from https://raw.githubusercontent.com/rishi-anand/bullish/main/integrations/BULLISH.gs to `OPTIONSLASTPRICE.gs` file and save
+-   Copy contents from https://raw.githubusercontent.com/rishi-anand/bullish/main/integrations/OPTIONSLASTPRICE.gs to `OPTIONSLASTPRICE.gs` file and save
 
 # Application
 
