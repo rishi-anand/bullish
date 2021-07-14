@@ -49,7 +49,7 @@ function OPTIONSLASTPRICE(symbol, expiry, strikeprice, option, time) {
   var routeData = JSON.parse(routeResp.getContentText());
   Logger.log(routeData.route);
 
-  var response = UrlFetchApp.fetch(Utilities.formatString('%s/oc/%s/%s/%s', "http://34.95.145.73", symbol, expiry, strikeprice));
+  var response = UrlFetchApp.fetch(Utilities.formatString('%s/oc/%s/%s/%s', routeData.route, symbol, expiry, strikeprice));
   Logger.log(response.getContentText());
   var data = JSON.parse(response.getContentText());
   // Logger.log(data.name);
