@@ -17,6 +17,5 @@ or use `TO_TEXT` and directly assign cell value
 
 ![alt text](https://raw.githubusercontent.com/rishi-anand/bullish/main/integrations/options_last_price.jgp.png)
 
-<img src="https://raw.githubusercontent.com/rishi-anand/bullish/main/integrations/options_last_price.jgp.png" width="256" height="455">
 
 
